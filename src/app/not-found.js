@@ -4,7 +4,6 @@ import { useSearchParams } from "next/navigation";
 import React from "react";
 
 export const dynamic = "force-dynamic";
-
 const NotFound = () => {
   const searchParams = useSearchParams();
   const id = searchParams.get("id"); // Extract id from the query string
