@@ -3,7 +3,6 @@
 import { useSearchParams } from "next/navigation";
 import React from "react";
 
-
 export const dynamic = "force-dynamic";
 const NotFound = () => {
   const searchParams = useSearchParams();
