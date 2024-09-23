@@ -7,7 +7,6 @@ import { Col, Container, Row } from "react-bootstrap";
 const layout = ({children}) => {
   return (
     <>
-      <Header />
       <Container fluid>
         <Row>
           <Col md={2} className="sidebar bg-light">
@@ -18,7 +17,6 @@ const layout = ({children}) => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };
